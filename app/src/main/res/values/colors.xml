@@ -7,4 +7,20 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="secondary">#31BFFF</color>
+    <color name="primary">#00B0FF</color>
+    <color name="primaryDark">#2F2E41</color>
+    <color name="fb_color">#3B5998</color>
+    <color name="google_color">#e93e3e</color>
+
+    <!-- colors for button style -->
+
+    <color name="gradient_start_color">#0097A7</color>
+    <color name="gradient_end_color">#18a3fe</color>
+
+
+    <!-- colors for tab and screent text -->
+
+    <color name="tab_indicator_grey">#c0c0c0</color>
 </resources>
