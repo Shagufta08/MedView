@@ -4,11 +4,16 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
+import com.example.medview.MainActivity;
 import com.example.medview.R;
 import com.example.medview.adapters.RecordDataAdapter;
 import com.example.medview.models.PatientHealthRecord;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -23,6 +28,8 @@ public class RecordActivity extends AppCompatActivity {
     RecordDataAdapter recordDataAdapter;
     List<PatientHealthRecord> recordList = new ArrayList<>();
 
+    private FloatingActionButton addRecordFabBtn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +37,16 @@ public class RecordActivity extends AppCompatActivity {
 
         recordRecyclerView = (RecyclerView) findViewById(R.id.patient_record_list);
         recordRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+        addRecordFabBtn = findViewById(R.id.addrecordFabbtn);
+
+        addRecordFabBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(RecordActivity.this, AddRecordActivity.class);
+                startActivity(intent);
+            }
+        });
 
         String reportName="reportName",date,hospital="hospital",doctor="Dr. Satyendra", disease="Persistent cough", prescription="sample prescription";
 
