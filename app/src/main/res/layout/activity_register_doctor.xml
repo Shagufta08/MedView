@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Register"
+        android:text="@string/register"
         android:id="@+id/text"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="220dp"
@@ -43,7 +43,7 @@
                 android:layout_marginEnd="50dp"
                 android:layout_marginRight="50dp"
                 android:ems="10"
-                android:hint="NAME"
+                android:hint="@string/name"
                 android:inputType="textPersonName" />
 
             <EditText
@@ -51,7 +51,7 @@
                 android:layout_height="50dp"
                 android:layout_marginEnd="50dp"
 
-                android:hint="AGE"
+                android:hint="@string/age"
                 android:inputType="number"
                 android:ems="10"
                 android:layout_marginTop="20dp"
@@ -67,7 +67,7 @@
                 android:layout_marginRight="50dp"
 
                 android:ems="10"
-                android:hint="SPECIALISATION"
+                android:hint="@string/specialisation"
                 android:inputType="textAutoComplete" />
 
             <EditText
@@ -75,7 +75,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginEnd="50dp"
-                android:hint="LICENCE NUMBER"
+                android:hint="@string/licence_number"
                 android:inputType="text"
                 android:ems="10"
                 android:layout_marginTop="20dp"
@@ -86,7 +86,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="50dp"
-                android:text="SELECT GENDER"
+                android:text="@string/select_gender"
                 android:layout_marginTop="20dp"
                 android:ems="10"
                 android:layout_marginStart="50dp"/>
@@ -98,12 +98,12 @@
 
                     android:layout_width="wrap_content"
                     android:layout_marginStart="100dp"
-                    android:text="Male"
+                    android:text="@string/male"
                     android:layout_height="wrap_content"/>
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_marginStart="100dp"
-                    android:text="Female"
+                    android:text="@string/female"
                     android:layout_height="wrap_content"/>
 
             </RadioGroup>
@@ -113,7 +113,7 @@
                 android:layout_height="50dp"
                 android:layout_marginEnd="50dp"
 
-                android:hint="PASSWORD"
+                android:hint="@string/password"
                 android:inputType="textPassword"
                 android:ems="10"
                 android:layout_marginTop="20dp"
@@ -121,12 +121,14 @@
                 android:layout_marginRight="50dp"/>
 
             <Button
+
+                android:id="@+id/btn_continue"
                 android:layout_width="150dp"
                 android:layout_height="60dp"
-                android:text="CONTINUE"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="50dp"
-                android:layout_marginBottom="50dp"/>
+                android:layout_marginBottom="50dp"
+                android:text="@string/continu" />
 
 
         </LinearLayout>
