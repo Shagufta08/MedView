@@ -13,6 +13,7 @@
         <entry key="app/src/main/res/drawable/indicator_selector.xml" value="0.127" />
         <entry key="app/src/main/res/drawable/round_bg.xml" value="0.2385" />
         <entry key="app/src/main/res/drawable/round_border.xml" value="0.2385" />
+        <entry key="app/src/main/res/drawable/round_corners.xml" value="0.2385" />
         <entry key="app/src/main/res/drawable/wave.xml" value="0.182" />
         <entry key="app/src/main/res/layout/activity_add_record.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_intro.xml" value="0.12771739130434784" />
@@ -23,11 +24,15 @@
         <entry key="app/src/main/res/layout/activity_profile.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_record.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/fragment_progfile.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/fragment_records.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/fragment_signin.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/fragment_signup.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/intro_slide_layout.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/login_activity.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/record_list_item.xml" value="0.35625" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.35625" />
       </map>
     </option>
   </component>

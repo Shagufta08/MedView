@@ -12,6 +12,7 @@ import com.example.medview.patient.RecordActivity;
 public class MainActivity extends AppCompatActivity {
 
     Button btn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
