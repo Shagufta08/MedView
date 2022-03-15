@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MedView">
         <activity
+            android:name=".doctor.RegisterDoctorActivity"
+            android:exported="false" />
+        <activity
             android:name=".patient.AddRecordActivity"
             android:exported="false" />
         <activity
