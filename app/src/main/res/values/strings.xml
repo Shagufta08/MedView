@@ -28,4 +28,9 @@
     <!-- onboarding-->
     <string name="example_heading">Heading1</string>
     <string name="example_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu urna sed nulla porta mollis eget a magna. Aenean ac lectus vel mi feugiat euismod.</string>
+
+    <!-- choice screen-->
+    <string name="user">User</string>
+    <string name="choose_your_role">Choose your Role</string>
+    <string name="medical_team">Medical Team</string>
 </resources>
