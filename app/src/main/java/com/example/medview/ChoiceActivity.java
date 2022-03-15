@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.medview.authscreens.LoginActivity;
+import com.example.medview.doctor.RegisterDoctorActivity;
+import com.example.medview.patient.RegisterUserActivity;
 
 public class ChoiceActivity extends AppCompatActivity {
 
@@ -19,7 +21,7 @@ public class ChoiceActivity extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(ChoiceActivity.this,
-                        LoginActivity.class));
+                        RegisterDoctorActivity.class));
             }
         });
 
@@ -27,7 +29,7 @@ public class ChoiceActivity extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(ChoiceActivity.this,
-                        LoginActivity.class));
+                        RegisterUserActivity.class));
             }
         });
     }
