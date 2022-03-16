@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:app="http://schemas.android.com/apk/res-auto"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-tools:context=".doctor.RegisterDoctorActivity">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".authscreens.UserRegisterActivity">
     <View
         android:id="@+id/top_view"
         android:layout_width="0dp"
@@ -41,20 +41,16 @@ tools:context=".doctor.RegisterDoctorActivity">
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.762" />
 
-    <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/doctor_icon"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_gravity="center_horizontal"
-        android:src="@drawable/doctorteamic"
-
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="138dp"
+        android:layout_height="128dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="12dp"
         android:contentDescription="@string/img"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_undraw_access_account_re_8spm" />
-
 
     <!--scroll height may change-->
     <ScrollView
@@ -64,37 +60,35 @@ tools:context=".doctor.RegisterDoctorActivity">
         app:layout_constraintTop_toBottomOf="@+id/wave"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="-1dp">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
             android:orientation="vertical">
 
-
             <EditText
-                android:id="@+id/doctor_name"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginStart="50dp"
 
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="50dp"
+                android:autofillHints=""
                 android:ems="10"
                 android:hint="@string/name"
-                android:inputType="textPersonName"
-                android:autofillHints="" />
+                android:inputType="textPersonName" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:layout_marginEnd="50dp"
+                android:layout_marginStart="50dp"
 
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:autofillHints=""
+                android:ems="10"
                 android:hint="@string/age"
-                android:inputType="number"
-                android:ems="10"
-                android:layout_marginTop="20dp"
-                android:layout_marginStart="50dp"
-                android:autofillHints="" />
+                android:inputType="number" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -103,76 +97,87 @@ tools:context=".doctor.RegisterDoctorActivity">
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="50dp"
 
+                android:autofillHints=""
                 android:ems="10"
-                android:hint="@string/specialisation"
-                android:inputType="textAutoComplete"
-                android:autofillHints="" />
+                android:hint="@string/blood_group"
+                android:inputType="text" />
 
             <EditText
-                android:id="@+id/licence"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:layout_marginEnd="50dp"
-                android:hint="@string/licence_number"
-                android:inputType="text"
-                android:ems="10"
-                android:layout_marginTop="20dp"
                 android:layout_marginStart="50dp"
-                android:autofillHints="" />
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/phone_number"
+                android:inputType="number" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/aadhar_number"
+                android:inputType="number" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="50dp"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/dd_mm_yyyy"
+                android:inputType="date" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="50dp"
-                android:text="@string/select_gender"
+                android:layout_marginStart="50dp"
                 android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
                 android:ems="10"
-                android:layout_marginStart="50dp"/>
+                android:text="@string/select_gender" />
+
             <RadioGroup
                 android:id="@+id/gender"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
                 <RadioButton
 
                     android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_marginStart="100dp"
-                    android:text="@string/male"
-                    android:layout_height="wrap_content"/>
+                    android:text="@string/male" />
+
                 <RadioButton
                     android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_marginStart="100dp"
-                    android:text="@string/female"
-                    android:layout_height="wrap_content"/>
+                    android:text="@string/female" />
 
             </RadioGroup>
-            <EditText
-                android:id="@+id/password"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginEnd="50dp"
-
-                android:hint="@string/password"
-                android:inputType="textPassword"
-                android:ems="10"
-                android:layout_marginTop="20dp"
-                android:layout_marginStart="50dp"
-                android:autofillHints="" />
 
             <Button
-
                 android:id="@+id/btn_continue"
                 android:layout_width="150dp"
                 android:layout_height="60dp"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginBottom="50dp"
                 android:text="@string/continu" />
 
 
         </LinearLayout>
     </ScrollView>
-
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

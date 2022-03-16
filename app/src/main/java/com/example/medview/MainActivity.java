@@ -21,7 +21,7 @@ import com.ismaeldivita.chipnavigation.ChipNavigationBar;
 public class MainActivity extends AppCompatActivity {
 
     Button btn;
-   ChipNavigationBar navigationView;
+    ChipNavigationBar navigationView;
 
 
     @Override

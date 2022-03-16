@@ -1,4 +1,4 @@
-package com.example.medview.patient;
+package com.example.medview.authscreens;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,18 +9,18 @@ import android.widget.Button;
 
 import com.example.medview.MainActivity;
 import com.example.medview.R;
-import com.example.medview.authscreens.LoginActivity;
 
-public class RegisterUserActivity extends AppCompatActivity {
+public class UserRegisterActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register_user);
+        setContentView(R.layout.activity_user_register);
+
         Button btn1= (Button) findViewById(R.id.btn_continue);
         btn1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(RegisterUserActivity.this,
+                startActivity(new Intent(UserRegisterActivity.this,
                         MainActivity.class));
             }
         });
