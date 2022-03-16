@@ -40,6 +40,7 @@
         <entry key="app/src/main/res/layout/activity_intro.xml" value="0.12771739130434784" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_login2.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_login_user.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_patient_home.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_profile.xml" value="0.35625" />

@@ -42,6 +42,9 @@
         <activity
             android:name=".authscreens.LoginUserActivity"
             android:exported="false" />
+
+        <activity android:name=".doctor.DoctorHomeActivity"
+            android:exported="false"/>
         <activity
             android:name=".SplashActivity"
             android:exported="true">

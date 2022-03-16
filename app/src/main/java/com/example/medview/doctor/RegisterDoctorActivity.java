@@ -21,6 +21,7 @@ public class RegisterDoctorActivity extends AppCompatActivity {
             public void onClick(View v) {
                 startActivity(new Intent(RegisterDoctorActivity.this,
                         DoctorHomeActivity.class));
+                finish();
             }
         });
     }

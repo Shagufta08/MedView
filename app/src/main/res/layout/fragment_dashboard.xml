@@ -8,11 +8,10 @@
     tools:context=".Patientsfragment.DashboardFragment">
 
 
-
     <View
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:background="@color/teal_700"/>
+        android:background="@color/teal_700" />
 
     <TextView
         android:id="@+id/textView2"
@@ -38,12 +37,13 @@
         android:id="@+id/imageView3"
         android:layout_width="55dp"
         android:layout_height="55dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginTop="28dp"
         android:layout_gravity="end"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="16dp"
         android:src="@drawable/dummy_user"
         app:civ_border_color="@color/white"
         app:civ_border_width="1dp" />
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -56,13 +56,13 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_gravity="center"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
+                android:layout_gravity="center"
                 android:gravity="center"
-                >
+                android:orientation="horizontal">
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/dashboaard_docs_cv"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="12dp"
@@ -73,8 +73,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:padding="16dp"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:padding="16dp">
 
                         <ImageView
                             android:layout_width="50dp"
@@ -85,14 +85,16 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
                             android:text="Documents"
-                            android:textStyle="bold"
                             android:textSize="16sp"
-                            android:layout_marginTop="5dp"/>
+                            android:textStyle="bold" />
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
+
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/dashboaard_illness_cv"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     app:cardCornerRadius="12dp"
@@ -102,22 +104,22 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:padding="16dp"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:padding="16dp">
 
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:tint="#E64A19"
-                            android:src="@drawable/ic_baseline_airline_seat_individual_suite_24" />
+                            android:src="@drawable/ic_baseline_airline_seat_individual_suite_24"
+                            app:tint="#E64A19" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
                             android:text="Past Illness"
-                            android:textStyle="bold"
                             android:textSize="16sp"
-                            android:layout_marginTop="5dp"/>
+                            android:textStyle="bold" />
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
@@ -127,17 +129,17 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
                 android:layout_gravity="center"
-                android:orientation="horizontal"
-                >
+                android:gravity="center"
+                android:orientation="horizontal">
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/dashboaard_profile_cv"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    app:cardCornerRadius="12dp"
-
                     android:layout_margin="12dp"
+
+                    app:cardCornerRadius="12dp"
                     app:cardElevation="6dp">
 
                     <LinearLayout
@@ -156,14 +158,16 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
                             android:text="Your Profile"
-                            android:textStyle="bold"
                             android:textSize="16sp"
-                            android:layout_marginTop="5dp"/>
+                            android:textStyle="bold" />
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
+
                 <androidx.cardview.widget.CardView
+
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     app:cardCornerRadius="12dp"
@@ -185,10 +189,10 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
                             android:text="Near Hospitals"
-                            android:textStyle="bold"
                             android:textSize="16sp"
-                            android:layout_marginTop="5dp"/>
+                            android:textStyle="bold" />
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>

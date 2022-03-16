@@ -28,9 +28,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnNext"
         app:layout_constraintStart_toStartOf="parent"
-        app:tabBackground="@drawable/indicator_selected"
-        >
-    </com.google.android.material.tabs.TabLayout>
+        app:tabBackground="@drawable/indicator_selected"></com.google.android.material.tabs.TabLayout>
 
     <Button
         android:id="@+id/btnNext"
@@ -47,7 +45,6 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:visibility="invisible"
         android:id="@+id/btn_get_started"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -59,6 +56,7 @@
         android:background="@drawable/button_bg_blue"
         android:text="Get Started"
         android:textColor="#fff"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

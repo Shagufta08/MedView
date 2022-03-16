@@ -13,11 +13,12 @@ import com.example.medview.authscreens.RegisterUserActivity;
 
 public class ChoiceActivity extends AppCompatActivity {
 
+    private Button btn1,btn2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choice);
-        Button btn1= (Button) findViewById(R.id.btn_medical);
+         btn1= (Button) findViewById(R.id.btn_medical);
         btn1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(ChoiceActivity.this,
@@ -25,7 +26,7 @@ public class ChoiceActivity extends AppCompatActivity {
             }
         });
 
-        Button btn2= (Button) findViewById(R.id.btn_user);
+        btn2= (Button) findViewById(R.id.btn_user);
         btn2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(ChoiceActivity.this,

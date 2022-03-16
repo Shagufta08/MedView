@@ -29,8 +29,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/fluid"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toTopOf="@+id/fluid" />
 
     <ImageView
         android:id="@+id/medical_team"
@@ -42,7 +41,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/chooseRole"
         app:srcCompat="@drawable/ic_doctor"
-        tools:ignore="MissingConstraints"
         android:contentDescription="@string/medical_team" />
 
     <ImageView
@@ -54,7 +52,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_medical"
         app:srcCompat="@drawable/ic_user"
-        tools:ignore="MissingConstraints"
         android:contentDescription="@string/user" />
 
     <Button
@@ -68,8 +65,7 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/medical_team"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toBottomOf="@+id/medical_team" />
 
     <Button
         android:id="@+id/btn_user"
@@ -82,8 +78,7 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/user"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toBottomOf="@+id/user" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

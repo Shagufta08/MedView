@@ -31,11 +31,11 @@
         android:layout_height="150dp"
         android:layout_marginTop="48dp"
         android:layout_marginEnd="8dp"
+        android:contentDescription="@string/img"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.94"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_undraw_access_account_re_8spm"
-        android:contentDescription="@string/img" />
+        app:srcCompat="@drawable/ic_undraw_access_account_re_8spm" />
 
     <TextView
         android:id="@+id/top_text"
@@ -60,6 +60,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
+        android:autofillHints=""
         android:background="@drawable/round_border"
         android:drawableStart="@drawable/ic_baseline_email_24"
         android:drawablePadding="16dp"
@@ -70,8 +71,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/wave"
-        android:autofillHints="" />
+        app:layout_constraintTop_toBottomOf="@+id/wave" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -80,6 +80,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="15dp"
         android:layout_marginEnd="32dp"
+        android:autofillHints=""
         android:background="@drawable/round_border"
         android:drawableStart="@drawable/ic_baseline_lock_24"
         android:drawablePadding="16dp"
@@ -90,8 +91,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input_email"
-        android:autofillHints="" />
+        app:layout_constraintTop_toBottomOf="@+id/input_email" />
 
     <Button
         android:id="@+id/btn_login"
