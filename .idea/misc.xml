@@ -13,6 +13,7 @@
         <entry key="app/src/main/res/drawable/ic_scale_weight_svgrepo_com.xml" value="0.2385" />
         <entry key="app/src/main/res/drawable/ic_undraw_access_account_re_8spm.xml" value="0.1355" />
         <entry key="app/src/main/res/drawable/ic_undraw_add_files_re_v09g.xml" value="0.2385" />
+        <entry key="app/src/main/res/drawable/ic_undraw_people_search_re_5rre.xml" value="0.2385" />
         <entry key="app/src/main/res/drawable/ic_wave__2_.xml" value="0.2385" />
         <entry key="app/src/main/res/drawable/ic_weight_svgrepo_com.xml" value="0.2385" />
         <entry key="app/src/main/res/drawable/ic_weight_svgrepo_com__1_.xml" value="0.2385" />
@@ -25,6 +26,7 @@
         <entry key="app/src/main/res/drawable/round_bg_white.xml" value="0.2385" />
         <entry key="app/src/main/res/drawable/round_blue_bg.xml" value="0.2385" />
         <entry key="app/src/main/res/drawable/round_border.xml" value="0.2385" />
+        <entry key="app/src/main/res/drawable/round_border_white.xml" value="0.2385" />
         <entry key="app/src/main/res/drawable/round_corners.xml" value="0.2385" />
         <entry key="app/src/main/res/drawable/round_corners_blue.xml" value="0.2385" />
         <entry key="app/src/main/res/drawable/round_corners_white.xml" value="0.2385" />
@@ -32,6 +34,7 @@
         <entry key="app/src/main/res/drawable/wave.xml" value="0.182" />
         <entry key="app/src/main/res/layout/activity_add_record.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_choice.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_doctor_home.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_illness.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_intro.xml" value="0.12771739130434784" />
@@ -45,7 +48,9 @@
         <entry key="app/src/main/res/layout/activity_register_user.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_profile2.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/fragment_profile_new.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/fragment_progfile.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/fragment_records.xml" value="0.35625" />
@@ -57,6 +62,7 @@
         <entry key="app/src/main/res/layout/login_activity.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/record_list_item.xml" value="0.35625" />
         <entry key="app/src/main/res/menu/menu.xml" value="0.35625" />
+        <entry key="app/src/main/res/menu/menu_doc.xml" value="0.35625" />
       </map>
     </option>
   </component>
