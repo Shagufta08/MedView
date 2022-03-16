@@ -23,4 +23,5 @@
     <!-- colors for tab and screen text -->
 
     <color name="tab_indicator_grey">#c0c0c0</color>
+    <color name="light_grey">#E3E1E1</color>
 </resources>

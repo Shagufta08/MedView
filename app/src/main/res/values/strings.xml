@@ -51,5 +51,6 @@
     <string name="aadhar_number">AADHAR NUMBER</string>
     <string name="dd_mm_yyyy">DD/MM/YYYY</string>
     <string name="img">img</string>
+    <string name="search_user">Search user by username</string>
 
 </resources>

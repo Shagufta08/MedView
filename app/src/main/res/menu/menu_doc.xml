@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/dashboaard_doc"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"
+        app:cnb_backgroundColor="#00BFA5"
+        app:cnb_textColor="#fff"
+        app:cnb_iconColor="#fff"/>
+    <item
+        android:id="@+id/profile_doc"
+        android:title="Profile"
+        app:cnb_backgroundColor="#00B8D4"
+        app:cnb_textColor="#fff"
+        app:cnb_iconColor="#fff"
+        android:icon="@drawable/ic_baseline_person_24"/>
+</menu>

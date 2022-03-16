@@ -20,7 +20,7 @@ public class RegisterDoctorActivity extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(RegisterDoctorActivity.this,
-                        MainActivity.class));
+                        DoctorHomeActivity.class));
             }
         });
     }
