@@ -50,6 +50,6 @@
     <string name="phone_number">PHONE NUMBER</string>
     <string name="aadhar_number">AADHAR NUMBER</string>
     <string name="dd_mm_yyyy">DD/MM/YYYY</string>
-
+    <string name="img">img</string>
 
 </resources>

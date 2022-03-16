@@ -9,7 +9,6 @@ import android.widget.Button;
 
 import com.example.medview.MainActivity;
 import com.example.medview.R;
-import com.example.medview.patient.RegisterUserActivity;
 
 public class RegisterDoctorActivity extends AppCompatActivity {
 

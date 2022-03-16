@@ -1,4 +1,4 @@
-package com.example.medview.patient;
+package com.example.medview.authscreens;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,7 +9,6 @@ import android.widget.Button;
 
 import com.example.medview.MainActivity;
 import com.example.medview.R;
-import com.example.medview.authscreens.LoginActivity;
 
 public class RegisterUserActivity extends AppCompatActivity {
 

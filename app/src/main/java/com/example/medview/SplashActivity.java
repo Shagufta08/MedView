@@ -53,7 +53,7 @@ public class SplashActivity extends AppCompatActivity {
                 Boolean isIntroActivityOpnendBefore = pref.getBoolean("isIntroOpnend", false);
 
                 if (isIntroActivityOpnendBefore) {
-                    startActivity(new Intent(SplashActivity.this, MainActivity.class));
+                    startActivity(new Intent(SplashActivity.this, ChoiceActivity.class));
                     finish();
                 } else {
 

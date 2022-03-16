@@ -13,7 +13,13 @@
             android:name=".patient.IllnessActivity"
             android:exported="false" />
         <activity
+            android:name=".authscreens.RegisterUserActivity"
+            android:exported="false" />
+        <activity
             android:name=".doctor.RegisterDoctorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChoiceActivity"
             android:exported="false" />
         <activity
             android:name=".patient.AddRecordActivity"
@@ -34,7 +40,7 @@
             android:name=".MainActivity"
             android:exported="true" />
         <activity
-            android:name=".authscreens.LoginActivity"
+            android:name=".authscreens.LoginUserActivity"
             android:exported="false" />
         <activity
             android:name=".SplashActivity"
