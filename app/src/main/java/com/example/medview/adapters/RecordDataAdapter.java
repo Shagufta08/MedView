@@ -37,9 +37,6 @@ public class RecordDataAdapter extends RecyclerView.Adapter<RecordDataAdapter.Vi
         if (recordList != null && recordList.size() > 0) {
             PatientHealthRecord model = recordList.get(position);
             holder.reportName.setText(model.getReportName());
-            holder.date.setText(model.getDate());
-            holder.hospital.setText(model.getHospitalName());
-            holder.disease.setText(model.getDisease());
             holder.prescription.setText(model.getPrescriptionDetail());
 
         }else {
@@ -53,13 +50,10 @@ public class RecordDataAdapter extends RecyclerView.Adapter<RecordDataAdapter.Vi
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
-        TextView reportName,date,hospital, disease, prescription;
+        TextView reportName, prescription;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             reportName = itemView.findViewById(R.id.report_name);
-            date = itemView.findViewById(R.id.report_date);
-            hospital= itemView.findViewById(R.id.hospital_name);
-            disease = itemView.findViewById(R.id.disease_name);
             prescription = itemView.findViewById(R.id.prescription_desc);
 
         }

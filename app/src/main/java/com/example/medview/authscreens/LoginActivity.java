@@ -18,21 +18,21 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        Button btn1= (Button) findViewById(R.id.btn_login);
-        btn1.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(LoginActivity.this,
-                       MainActivity.class));
-            }
-        });
-
-        TextView btn2= (TextView) findViewById(R.id.new_user);
-        btn2.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(LoginActivity.this,
-                        ChoiceActivity.class));
-            }
-        });
+//        Button btn1= (Button) findViewById(R.id.btn_login);
+//        btn1.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View v) {
+//                startActivity(new Intent(LoginActivity.this,
+//                       MainActivity.class));
+//            }
+//        });
+//
+//        TextView btn2= (TextView) findViewById(R.id.new_user);
+//        btn2.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View v) {
+//                startActivity(new Intent(LoginActivity.this,
+//                        ChoiceActivity.class));
+//            }
+//        });
 
     }
 }

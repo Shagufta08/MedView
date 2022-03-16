@@ -56,14 +56,14 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        btn = findViewById(R.id.recordbtn);
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, RecordActivity.class);
-                startActivity(intent);
-            }
-        });
+//        btn = findViewById(R.id.recordbtn);
+//        btn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(MainActivity.this, RecordActivity.class);
+//                startActivity(intent);
+//            }
+//        });
 
     }
 }

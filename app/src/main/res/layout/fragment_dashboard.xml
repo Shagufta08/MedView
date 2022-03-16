@@ -1,59 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#51C0C0C0"
     tools:context=".Patientsfragment.DashboardFragment">
 
-    <!-- TODO: Update blank fragment layout -->
 
-   <View
-       android:layout_width="match_parent"
-       android:layout_height="300dp"
-       android:background="@color/teal_700"/>
-    <TextView
+
+    <View
         android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/teal_700"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MY DASHBOARD"
-        android:textAlignment="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:text="Friday, 21 March"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="64dp"
+        android:text="Hello, User"
         android:textColor="@color/white"
         android:textSize="30sp"
-        android:textStyle="italic"
+        android:textStyle="bold" />
 
-        android:layout_marginTop="30dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginEnd="30dp"/>
     <de.hdodenhof.circleimageview.CircleImageView
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="100dp"
-        android:src="@drawable/dummy_user"/>
-
+        android:id="@+id/imageView3"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="28dp"
+        android:layout_gravity="end"
+        android:src="@drawable/dummy_user"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="1dp" />
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="200dp">
+        android:layout_marginTop="150dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <GridLayout
+            <LinearLayout
                 android:layout_width="match_parent"
+                android:layout_gravity="center"
                 android:layout_height="wrap_content"
-                android:alignmentMode="alignMargins"
-                android:columnCount="2"
-                android:columnOrderPreserved="false"
-                android:rowCount="2">
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
+                    android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:layout_rowWeight="1"
-                    android:layout_columnWeight="1"
                     android:layout_margin="12dp"
                     app:cardCornerRadius="12dp"
                     app:cardElevation="6dp">
@@ -61,120 +72,128 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_gravity="center"
-                        android:orientation="vertical"
-                        android:padding="16dp">
+                        android:gravity="center"
+                        android:padding="16dp"
+                        android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="80dp"
-                            android:layout_height="80dp"
-                            android:src="@drawable/ic_baseline_attach_file_24" />
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/ic_baseline_folder_24"
+                            app:tint="#FFB300" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Upload Documents"
+                            android:text="Documents"
                             android:textStyle="bold"
-                            android:textSize="16dp"
+                            android:textSize="16sp"
                             android:layout_marginTop="5dp"/>
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
+                    android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:layout_rowWeight="1"
-                    android:layout_columnWeight="1"
-                    android:layout_margin="12dp"
                     app:cardCornerRadius="12dp"
                     app:cardElevation="6dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_gravity="center"
-                        android:orientation="vertical"
-                        android:padding="16dp">
+                        android:gravity="center"
+                        android:padding="16dp"
+                        android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="80dp"
-                            android:layout_height="80dp"
-                            android:src="@drawable/ic_baseline_text_snippet_24" />
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:tint="#E64A19"
+                            android:src="@drawable/ic_baseline_airline_seat_individual_suite_24" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Previous Tests"
+                            android:text="Past Illness"
                             android:textStyle="bold"
-                            android:textSize="16dp"
+                            android:textSize="16sp"
                             android:layout_marginTop="5dp"/>
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                >
+
                 <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
+                    android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:layout_rowWeight="1"
-                    android:layout_columnWeight="1"
-                    android:layout_margin="12dp"
                     app:cardCornerRadius="12dp"
+
+                    android:layout_margin="12dp"
                     app:cardElevation="6dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_gravity="center"
+                        android:gravity="center"
                         android:orientation="vertical"
                         android:padding="16dp">
 
                         <ImageView
-                            android:layout_width="80dp"
-                            android:layout_height="80dp"
-                            android:src="@drawable/ic_baseline_person_24" />
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/ic_baseline_person_24"
+                            app:tint="#0097A7" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Your Profile"
                             android:textStyle="bold"
-                            android:textSize="16dp"
+                            android:textSize="16sp"
                             android:layout_marginTop="5dp"/>
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
+                    android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:layout_rowWeight="1"
-                    android:layout_columnWeight="1"
-                    android:layout_margin="12dp"
                     app:cardCornerRadius="12dp"
                     app:cardElevation="6dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_gravity="center"
+                        android:gravity="center"
                         android:orientation="vertical"
                         android:padding="16dp">
 
                         <ImageView
-                            android:layout_width="80dp"
-                            android:layout_height="80dp"
-                            android:src="@drawable/ic_baseline_local_hospital_24" />
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/ic_baseline_local_hospital_24"
+                            app:tint="#AFB42B" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Near Hospitals"
                             android:textStyle="bold"
-                            android:textSize="16dp"
+                            android:textSize="16sp"
                             android:layout_marginTop="5dp"/>
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
 
-            </GridLayout>
+            </LinearLayout>
         </LinearLayout>
 
     </ScrollView>

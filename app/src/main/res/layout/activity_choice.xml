@@ -23,8 +23,8 @@
         android:layout_marginTop="50dp"
         android:includeFontPadding="true"
         android:text="@string/choose_your_role"
-        android:textColor="@color/purple_700"
-        android:textSize="40sp"
+        android:textColor="@color/teal_700"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
@@ -34,8 +34,8 @@
 
     <ImageView
         android:id="@+id/medical_team"
-        android:layout_width="190dp"
-        android:layout_height="166dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_marginTop="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.481"
@@ -47,8 +47,8 @@
 
     <ImageView
         android:id="@+id/user"
-        android:layout_width="190dp"
-        android:layout_height="166dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_marginTop="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

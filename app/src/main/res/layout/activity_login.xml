@@ -27,33 +27,30 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_marginTop="48dp"
         android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.94"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_baseline_person_24" />
+        app:srcCompat="@drawable/ic_undraw_access_account_re_8spm" />
 
     <TextView
         android:id="@+id/top_text"
-        android:layout_width="238dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="80dp"
-        android:text="@string/already_have_an_account"
+        android:layout_marginBottom="10dp"
+        android:text="Already have an account ?"
         android:textColor="@color/white"
         android:textSize="30sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="@+id/top_view"
         app:layout_constraintEnd_toStartOf="@+id/imageView"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <EditText
         android:id="@+id/input_email"
@@ -66,7 +63,7 @@
         android:drawableStart="@drawable/ic_baseline_email_24"
         android:drawablePadding="16dp"
         android:ems="10"
-        android:hint="@string/email"
+        android:hint="Email"
         android:inputType="textWebEmailAddress|text"
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -85,7 +82,7 @@
         android:drawableStart="@drawable/ic_baseline_lock_24"
         android:drawablePadding="16dp"
         android:ems="10"
-        android:hint="@string/password"
+        android:hint="Password"
         android:inputType="textPassword"
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -94,14 +91,14 @@
         app:layout_constraintTop_toBottomOf="@+id/input_email" />
 
     <Button
-        android:id="@+id/btn_login"
+        android:id="@+id/button_login"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/round_blue_bg"
-        android:text="@string/login"
+        android:text="LOGIN"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -115,20 +112,20 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
-        android:text="@string/forgot_password"
-        android:textColor="@color/teal_200"
+        android:text="FORGOT PASSWORD?"
+        android:textColor="@color/teal_700"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_login" />
+        app:layout_constraintTop_toBottomOf="@+id/button_login" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="@string/or"
+        android:text="OR"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/forgot_pwd" />
@@ -143,15 +140,15 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
-        android:id="@+id/new_user"
+        android:id="@+id/textView6"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
-        android:text="@string/new_user_register_now"
+        android:text="NEW USER ? REGISTER HERE"
         android:textAlignment="center"
-        android:textColor="@color/teal_200"
+        android:textColor="@color/teal_700"
         android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

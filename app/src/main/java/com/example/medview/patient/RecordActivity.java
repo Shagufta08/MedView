@@ -48,16 +48,16 @@ public class RecordActivity extends AppCompatActivity {
             }
         });
 
-        String reportName="reportName",date,hospital="hospital",doctor="Dr. Satyendra", disease="Persistent cough", prescription="sample prescription";
+        String reportName="reportName",prescription="sample prescription";
 
-        Date c = Calendar.getInstance().getTime();
-        SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault());
-        date = df.format(c);
+//        Date c = Calendar.getInstance().getTime();
+//        SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault());
+//        date = df.format(c);
 
         //hardcorded
-        recordList.add(new PatientHealthRecord(reportName, date, hospital,doctor, disease, prescription));
-        recordList.add(new PatientHealthRecord(reportName, date, hospital,doctor, disease, prescription));
-        recordList.add(new PatientHealthRecord(reportName, date, hospital,doctor, disease, prescription));
+        recordList.add(new PatientHealthRecord(reportName, prescription));
+        recordList.add(new PatientHealthRecord(reportName, prescription));
+        recordList.add(new PatientHealthRecord(reportName, prescription));
 
         recordDataAdapter = new RecordDataAdapter(RecordActivity.this, recordList);
         recordRecyclerView.setAdapter(recordDataAdapter);
