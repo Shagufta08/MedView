@@ -3,10 +3,8 @@ package com.example.medview.models;
 public class Illness {
     String name , illness , type ;
     Long userId;
-public  Illness(String name , String illness , Long userId , String type) {
-    this.name=name;
+public  Illness(String illness , String type) {
     this.illness=illness;
-    this.userId=userId;
     this.type=type;
 }
 

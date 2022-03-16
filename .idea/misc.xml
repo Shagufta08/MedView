@@ -3,78 +3,37 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable-anydpi/ic_medical_team.xml" value="0.1" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1465" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable-v24/patient.xml" value="0.2125" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/button_bg_blue.xml" value="0.2125" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/google_ic.xml" value="0.2125" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.2125" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/ic_baseline_attach_file_24.xml" value="0.2125" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/ic_baseline_calendar_today_24.xml" value="0.2125" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.2125" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/ic_baseline_folder_24.xml" value="0.2125" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1465" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/ic_baseline_insert_drive_file_24.xml" value="0.2125" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.1465" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.1465" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1465" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/ic_baseline_text_snippet_24.xml" value="0.1465" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/ic_doctor_svgrepo_com.xml" value="0.1465" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/ic_fluid_10s_408px.xml" value="0.158" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/ic_fluid_10s_408px__1_.xml" value="0.158" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/ic_hand_holding_medical_solid.xml" value="0.1465" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/ic_heart_solid.xml" value="0.1465" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1465" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/ic_medical.xml" value="0.1465" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/ic_undraw_access_account_re_8spm.xml" value="0.2125" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/ic_undraw_medical_research_qg4d.xml" value="0.1465" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/ic_undraw_medicine_b_1_ol.xml" value="0.2125" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/ic_undraw_secure_files_re_6vdh.xml" value="0.2125" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/ic_user_svgrepo_com.xml" value="0.1465" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/ic_user_svgrepo_com__1_.xml" value="0.1465" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/ic_user_svgrepo_com__2_.xml" value="0.235" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/ic_wave__2_.xml" value="0.2125" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/indicator_default.xml" value="0.2125" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/indicator_selected.xml" value="0.2125" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/indicator_selector.xml" value="0.1465" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/round_blue_bg.xml" value="0.2125" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/round_border.xml" value="0.2125" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/round_corners.xml" value="0.1465" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/drawable/wave.xml" value="0.1465" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/layout/activity_add_record.xml" value="0.18857142857142858" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/layout/activity_chioice.xml" value="0.2033514492753623" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/layout/activity_choice.xml" value="0.1" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/layout/activity_intro.xml" value="0.11119554204660588" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/layout/activity_login.xml" value="0.1716485507246377" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/layout/activity_main.xml" value="0.16032608695652173" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/layout/activity_patient_home.xml" value="0.16032608695652173" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/layout/activity_profile.xml" value="0.16032608695652173" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/layout/activity_record.xml" value="0.16032608695652173" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/layout/activity_register_doctor.xml" value="0.1" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/layout/activity_register_user.xml" value="0.20324074074074075" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/layout/activity_splash.xml" value="0.16032608695652173" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/layout/fragment_dashboard.xml" value="0.16032608695652173" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/layout/fragment_profile.xml" value="0.16032608695652173" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/layout/fragment_records.xml" value="0.16032608695652173" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/layout/fragment_signin.xml" value="0.16032608695652173" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/layout/fragment_signup.xml" value="0.16032608695652173" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/layout/illness_item_layout.xml" value="0.14324569356300998" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/layout/intro_slide_layout.xml" value="0.16032608695652173" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/layout/record_list_item.xml" value="0.16032608695652173" />
-        <entry key="..\:/Users/Shagufta Iqbal/StudioProjects/MedView/app/src/main/res/menu/menu.xml" value="0.22864583333333333" />
         <entry key="app/src/main/res/drawable/button_bg_blue.xml" value="0.1355" />
+        <entry key="app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.2385" />
+        <entry key="app/src/main/res/drawable/ic_baseline_airline_seat_individual_suite_24.xml" value="0.2385" />
         <entry key="app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.2385" />
         <entry key="app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.2385" />
+        <entry key="app/src/main/res/drawable/ic_drop_of_blood_svgrepo_com.xml" value="0.2385" />
+        <entry key="app/src/main/res/drawable/ic_height_svgrepo_com.xml" value="0.2385" />
+        <entry key="app/src/main/res/drawable/ic_scale_weight_svgrepo_com.xml" value="0.2385" />
         <entry key="app/src/main/res/drawable/ic_undraw_access_account_re_8spm.xml" value="0.1355" />
+        <entry key="app/src/main/res/drawable/ic_undraw_add_files_re_v09g.xml" value="0.2385" />
         <entry key="app/src/main/res/drawable/ic_wave__2_.xml" value="0.2385" />
+        <entry key="app/src/main/res/drawable/ic_weight_svgrepo_com.xml" value="0.2385" />
+        <entry key="app/src/main/res/drawable/ic_weight_svgrepo_com__1_.xml" value="0.2385" />
+        <entry key="app/src/main/res/drawable/ic_weight_svgrepo_com__2_.xml" value="0.2385" />
         <entry key="app/src/main/res/drawable/indicator_default.xml" value="0.127" />
         <entry key="app/src/main/res/drawable/indicator_selected.xml" value="0.127" />
         <entry key="app/src/main/res/drawable/indicator_selector.xml" value="0.127" />
         <entry key="app/src/main/res/drawable/round_bg.xml" value="0.2385" />
+        <entry key="app/src/main/res/drawable/round_bg_teal.xml" value="0.2385" />
+        <entry key="app/src/main/res/drawable/round_bg_white.xml" value="0.2385" />
+        <entry key="app/src/main/res/drawable/round_blue_bg.xml" value="0.2385" />
         <entry key="app/src/main/res/drawable/round_border.xml" value="0.2385" />
         <entry key="app/src/main/res/drawable/round_corners.xml" value="0.2385" />
+        <entry key="app/src/main/res/drawable/round_corners_blue.xml" value="0.2385" />
+        <entry key="app/src/main/res/drawable/round_corners_white.xml" value="0.2385" />
+        <entry key="app/src/main/res/drawable/round_gradient_border.xml" value="0.2385" />
         <entry key="app/src/main/res/drawable/wave.xml" value="0.182" />
         <entry key="app/src/main/res/layout/activity_add_record.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_choice.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_illness.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_intro.xml" value="0.12771739130434784" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_login2.xml" value="0.35625" />
@@ -82,12 +41,18 @@
         <entry key="app/src/main/res/layout/activity_patient_home.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_profile.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_record.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_register_doctor.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_register_user.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_profile_new.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/fragment_progfile.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/fragment_records.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/fragment_recordsnew.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/fragment_signin.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/fragment_signup.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/illness_item_layout.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/intro_slide_layout.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/login_activity.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/record_list_item.xml" value="0.35625" />
