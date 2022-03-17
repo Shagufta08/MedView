@@ -43,8 +43,10 @@ public class RecordActivity extends AppCompatActivity {
         addRecordFabBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(RecordActivity.this, AddRecordActivity.class);
-                startActivity(intent);
+//                Intent intent = new Intent(RecordActivity.this, AddRecordActivity.class);
+//                startActivity(intent);
+
+                startActivityForResult(new Intent(RecordActivity.this, AddRecordActivity.class), 100);
             }
         });
 

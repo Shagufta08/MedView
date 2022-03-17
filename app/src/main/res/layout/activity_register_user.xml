@@ -52,131 +52,131 @@
             app:srcCompat="@drawable/ic_undraw_access_account_re_8spm" />
 
         <!--scroll height may change-->
-        <ScrollView
-            android:layout_width="412dp"
-            android:layout_height="500dp"
-            android:layout_below="@+id/wave"
-            app:layout_constraintTop_toBottomOf="@+id/wave"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="-1dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_below="@+id/wave"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wave">
 
-            <LinearLayout
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="50dp"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/age"
+                android:inputType="number" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/blood_group"
+                android:inputType="text" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/phone_number"
+                android:inputType="number" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/aadhar_number"
+                android:inputType="number" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="50dp"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/dd_mm_yyyy"
+                android:inputType="date" />
+
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:ems="10"
+                android:text="@string/select_gender" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:layout_marginStart="50dp"
+            <RadioGroup
+                android:id="@+id/gender"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-                    android:layout_marginTop="20dp"
-                    android:layout_marginEnd="50dp"
-                    android:autofillHints=""
-                    android:ems="10"
-                    android:hint="@string/name"
-                    android:inputType="textPersonName" />
+                <RadioButton
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:layout_marginStart="50dp"
-
-                    android:layout_marginTop="20dp"
-                    android:layout_marginEnd="50dp"
-                    android:autofillHints=""
-                    android:ems="10"
-                    android:hint="@string/age"
-                    android:inputType="number" />
-
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:layout_marginStart="50dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginEnd="50dp"
-
-                    android:autofillHints=""
-                    android:ems="10"
-                    android:hint="@string/blood_group"
-                    android:inputType="text" />
-
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:layout_marginStart="50dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginEnd="50dp"
-
-                    android:autofillHints=""
-                    android:ems="10"
-                    android:hint="@string/phone_number"
-                    android:inputType="number" />
-
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:layout_marginStart="50dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginEnd="50dp"
-
-                    android:autofillHints=""
-                    android:ems="10"
-                    android:hint="@string/aadhar_number"
-                    android:inputType="number" />
-
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:layout_marginStart="50dp"
-
-                    android:layout_marginTop="20dp"
-                    android:layout_marginEnd="50dp"
-                    android:autofillHints=""
-                    android:ems="10"
-                    android:hint="@string/dd_mm_yyyy"
-                    android:inputType="date" />
-
-                <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="50dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginEnd="50dp"
-                    android:ems="10"
-                    android:text="@string/select_gender" />
+                    android:layout_marginStart="100dp"
+                    android:text="@string/male" />
 
-                <RadioGroup
-                    android:id="@+id/gender"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:text="@string/female" />
 
-                    <RadioButton
+            </RadioGroup>
 
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="100dp"
-                        android:text="@string/male" />
-
-                    <RadioButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="100dp"
-                        android:text="@string/female" />
-
-                </RadioGroup>
-
-                <Button
-                    android:id="@+id/btn_continue"
-                    android:layout_width="150dp"
-                    android:layout_height="60dp"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="30dp"
-                    android:layout_marginBottom="50dp"
-                    android:text="@string/continu" />
+            <Button
+                android:id="@+id/btn_continue"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_blue_bg"
+                android:layout_marginBottom="50dp"
+                android:text="@string/continu" />
 
 
-            </LinearLayout>
-        </ScrollView>
+        </LinearLayout>
+    </ScrollView>
 
     </androidx.constraintlayout.widget.ConstraintLayout>

@@ -198,6 +198,36 @@
                 </androidx.cardview.widget.CardView>
 
             </LinearLayout>
+
+
+<!--            <com.google.android.material.card.MaterialCardView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="100dp"-->
+<!--                android:layout_margin="20dp"-->
+
+<!--                app:cardCornerRadius="20dp">-->
+
+<!--                <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:background="@drawable/ic_liquid_cheese"-->
+<!--                    android:layout_height="match_parent">-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="Upgrade to premium"-->
+<!--                        android:layout_marginEnd="32dp"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:gravity="end"-->
+<!--                        android:textSize="16sp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                        app:layout_constraintEnd_toEndOf="parent"-->
+<!--                        app:layout_constraintTop_toTopOf="parent" />-->
+<!--                </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+<!--            </com.google.android.material.card.MaterialCardView>-->
         </LinearLayout>
 
     </ScrollView>

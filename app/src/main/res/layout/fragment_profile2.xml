@@ -20,7 +20,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/round_blue_bg"
+        android:background="@drawable/round_corners_blue"
         android:layout_marginTop="100dp"/>
 <de.hdodenhof.circleimageview.CircleImageView
     android:layout_width="100dp"
