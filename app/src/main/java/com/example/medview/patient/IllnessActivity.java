@@ -49,13 +49,13 @@ public class IllnessActivity extends AppCompatActivity {
         illnessRecyclerView = findViewById(R.id.illness_recycler_view);
         illnessRecyclerView .setLayoutManager(new LinearLayoutManager(this));
 
-        illnessList.add(new Illness("Sample illness","illness type"));
-        illnessList.add(new Illness("Sample illness","illness type"));
-        illnessList.add(new Illness("Sample illness","illness type"));
-        illnessList.add(new Illness("Sample illness","illness type"));
-        illnessList.add(new Illness("Sample illness","illness type"));
-        illnessList.add(new Illness("Sample illness","illness type"));
-        illnessList.add(new Illness("Sample illness","illness type"));
+        illnessList.add(new Illness("Covid 19","Infectious illness"));
+        illnessList.add(new Illness("Night blindness","Deficiency illness"));
+        illnessList.add(new Illness("Diabetes","Hereditary illness"));
+        illnessList.add(new Illness("Asthma","Physiological illness"));
+        illnessList.add(new Illness("Fatigue","Infectious illness"));
+        illnessList.add(new Illness("Alzheimer","Hereditary illness"));
+        illnessList.add(new Illness("Rickets","Deficiency illness"));
 
 
         illnessDataAdapter = new IllnessDataAdapter(IllnessActivity.this, illnessList);

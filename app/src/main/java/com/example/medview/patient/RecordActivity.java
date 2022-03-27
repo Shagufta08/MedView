@@ -50,16 +50,15 @@ public class RecordActivity extends AppCompatActivity {
             }
         });
 
-        String reportName="reportName",prescription="sample prescription";
+        String reportName="reportName";
 
 //        Date c = Calendar.getInstance().getTime();
 //        SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault());
 //        date = df.format(c);
 
-        //hardcorded
-        recordList.add(new PatientHealthRecord(reportName, prescription));
-        recordList.add(new PatientHealthRecord(reportName, prescription));
-        recordList.add(new PatientHealthRecord(reportName, prescription));
+        recordList.add(new PatientHealthRecord("Covid-19 rt pcr", "Fever, cough, loss of taste and smell"));
+        recordList.add(new PatientHealthRecord("Diabetes A1C test", "Excessive weight loss and increased thirst"));
+        recordList.add(new PatientHealthRecord("Alzheimer CT Scan", "Difficulty thinking and understanding"));
 
         recordDataAdapter = new RecordDataAdapter(RecordActivity.this, recordList);
         recordRecyclerView.setAdapter(recordDataAdapter);
