@@ -12,13 +12,15 @@ import android.widget.Toast;
 
 import com.example.medview.MainActivity;
 import com.example.medview.R;
+import com.example.medview.doctor.DoctorHomeActivity;
+import com.example.medview.doctor.RegisterDoctorActivity;
 
-public class LoginUserActivity extends AppCompatActivity {
+public class LoginDoctorActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login_user);
+        setContentView(R.layout.activity_login_doctor);
         Button btn1= (Button) findViewById(R.id.btn_login);
         btn1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -27,20 +29,19 @@ public class LoginUserActivity extends AppCompatActivity {
                         Toast.LENGTH_LONG);
                 t.setGravity(Gravity.BOTTOM | Gravity.RIGHT, 0, 0);
                 t.show();
-                startActivity(new Intent(LoginUserActivity.this,
-                        MainActivity.class));
+                startActivity(new Intent(LoginDoctorActivity.this,
+                      DoctorHomeActivity.class));
                 finish();
             }
         });
-//
+
         TextView newUser= (TextView) findViewById(R.id.new_user);
 
         newUser.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(LoginUserActivity.this,
-                        RegisterUserActivity.class));
+                startActivity(new Intent(LoginDoctorActivity.this,
+                        RegisterDoctorActivity.class));
             }
         });
-
     }
 }
