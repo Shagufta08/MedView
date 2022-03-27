@@ -1,9 +1,9 @@
 package com.example.medview.models;
 
-public class AuthModel {
+public class LoginRequestModel {
     String username , password ;
 
-    public AuthModel(String username, String password) {
+    public LoginRequestModel(String username, String password) {
         this.username = username;
         this.password = password;
     }

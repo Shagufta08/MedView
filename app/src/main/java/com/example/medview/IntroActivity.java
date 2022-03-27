@@ -108,7 +108,7 @@ public class IntroActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent mainActivity = new Intent(getApplicationContext(),MainActivity.class);
+                Intent mainActivity = new Intent(getApplicationContext(),ChoiceActivity.class);
                 startActivity(mainActivity);
                 savePrefsData();
                 finish();

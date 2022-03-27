@@ -1,13 +1,23 @@
 package com.example.medview.network;
 
-import com.example.medview.models.AuthModel;
+import android.util.Log;
+
+import com.example.medview.models.LoginRequestModel;
 import com.example.medview.models.ResponseModel;
 
 import retrofit2.Call;
-import retrofit2.http.GET;
-import retrofit2.http.Header;
+import retrofit2.http.Body;
+import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.POST;
-import retrofit2.http.Query;
 
 public interface ApiService {
+//    @POST("patient/create")
+//    Call<PatientUser> createUser();
+
+//    @GET("patient/patients")
+//    Call<ResponseModel> getPatientsList();
+
+    @POST("patient/login")
+    Call<ResponseModel> loginuser(@Body LoginRequestModel requestModel);
+
 }

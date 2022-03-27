@@ -8,6 +8,7 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -49,6 +50,7 @@ public class AddRecordActivity extends AppCompatActivity {
         addRecordbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Toast.makeText(getApplicationContext(), "File uploaded successfully", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -73,12 +75,35 @@ public class AddRecordActivity extends AppCompatActivity {
 
     private void uploadFile(Uri fileUri) {
         ProgressDialog progressDialog = new ProgressDialog(this);
-        progressDialog.setTitle("Uploading file");
-        //progressDialog.show();
+        progressDialog.setCancelable(true);
+        progressDialog.setMessage("Uploading file..");
+
+        progressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
+        progressDialog.setProgress(0);
+        progressDialog.show();
 
         //logic to upload file
         //on success progressdialog dismiss
-//        Toast.makeText(getApplicationContext(), "File uploaded successfully", Toast.LENGTH_SHORT).show();
+
+        final int totalProgressTime = 100;
+        final Thread t = new Thread() {
+            @Override
+            public void run() {
+                int jumpTime = 0;
+
+                while(jumpTime < totalProgressTime) {
+                    try {
+                        sleep(200);
+                        jumpTime += 5;
+                        progressDialog.setProgress(jumpTime);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+        };
+        t.start();
+
 
     }
     private void filePicker() {

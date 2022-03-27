@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -16,6 +17,9 @@ import com.example.medview.doctor.DoctorHomeActivity;
 import com.example.medview.doctor.RegisterDoctorActivity;
 
 public class LoginDoctorActivity extends AppCompatActivity {
+
+    private EditText emailEd;
+    private EditText passwdEd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +38,7 @@ public class LoginDoctorActivity extends AppCompatActivity {
                 finish();
             }
         });
+
 
         TextView newUser= (TextView) findViewById(R.id.new_user);
 

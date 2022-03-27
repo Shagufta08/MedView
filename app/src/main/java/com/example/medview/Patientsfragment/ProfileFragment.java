@@ -9,14 +9,18 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.example.medview.R;
 import com.example.medview.patient.IllnessActivity;
 import com.example.medview.patient.RecordActivity;
 
+import java.nio.charset.StandardCharsets;
+
 
 public class ProfileFragment extends Fragment {
     private CardView illness_cv, records_cv;
+    private TextView usrrname, age, height, weight, bloodgr, phone;
 
     public ProfileFragment() {
         // Required empty public constructor
@@ -44,6 +48,36 @@ public class ProfileFragment extends Fragment {
                 startActivity(new Intent(getActivity(), IllnessActivity.class));
             }
         });
+
+        Intent intent = getActivity().getIntent();
+
+
+
+        if (intent.getExtras() != null){
+//            String name = intent.get("data");
+
+            usrrname = item.findViewById(R.id.user_name_tv);
+            phone = item.findViewById(R.id.user_phone_tv);
+            age = item.findViewById(R.id.user_age);
+            bloodgr = item.findViewById(R.id.user_blood);
+            weight = item.findViewById(R.id.user_wt);
+            height = item.findViewById(R.id.user_height);
+
+            String name ="";
+            String phone_val = "";
+            String bloodgr_val = "";
+            String height_val = "";
+            String weight_val = "";
+            String age_val = "";
+
+            usrrname.setText(name);
+            phone.setText(phone_val);
+
+            bloodgr.setText(bloodgr_val);
+            weight.setText(weight_val);
+            height.setText(height_val);
+            age.setText(age_val);
+        }
         return item;
     }
 }

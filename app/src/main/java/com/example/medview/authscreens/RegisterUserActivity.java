@@ -4,13 +4,23 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
 import com.example.medview.MainActivity;
 import com.example.medview.R;
+import com.example.medview.models.ResponseModel;
+import com.example.medview.network.ApiService;
+import com.example.medview.network.RetrofitClientInstance;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class RegisterUserActivity extends AppCompatActivity {
+
+    ApiService apiInterface;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

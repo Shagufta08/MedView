@@ -61,7 +61,9 @@
         <entry key="app/src/main/res/layout/activity_doctor_home.xml" value="0.18177083333333333" />
         <entry key="app/src/main/res/layout/activity_illness.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_intro.xml" value="0.12771739130434784" />
+        <entry key="app/src/main/res/layout/activity_login_doctor.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_login_user.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.15885416666666666" />
         <entry key="app/src/main/res/layout/activity_record.xml" value="0.19429347826086957" />
         <entry key="app/src/main/res/layout/activity_register_doctor.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_register_user.xml" value="0.35625" />
