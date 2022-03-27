@@ -57,9 +57,9 @@ public class RecordActivity extends AppCompatActivity {
 //        date = df.format(c);
 
         //hardcorded
-        recordList.add(new PatientHealthRecord(reportName, prescription));
-        recordList.add(new PatientHealthRecord(reportName, prescription));
-        recordList.add(new PatientHealthRecord(reportName, prescription));
+        recordList.add(new PatientHealthRecord("Covid-19 rt pcr", "Fever, cough, loss of taste and smell"));
+        recordList.add(new PatientHealthRecord("Diabetes A1C test", "Excessive weight loss and increased thirst"));
+        recordList.add(new PatientHealthRecord("Alzhemier CT Scan", "Difficulty thinking and understanding"));
 
         recordDataAdapter = new RecordDataAdapter(RecordActivity.this, recordList);
         recordRecyclerView.setAdapter(recordDataAdapter);
