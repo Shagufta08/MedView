@@ -25,7 +25,7 @@
 <de.hdodenhof.circleimageview.CircleImageView
     android:layout_width="100dp"
     android:layout_height="100dp"
-    android:src="@drawable/dummy_user"
+    android:src="@drawable/doctorteamic"
     android:layout_gravity="center_horizontal"
     android:layout_marginTop="80dp"/>
 
@@ -39,7 +39,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="Dr. Aarika Srivastava"
+            android:text="Dr. Shreya Vijay"
             android:textColor="@color/white"
             android:textStyle="bold" />
 
