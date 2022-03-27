@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="28dp"
-        android:text="Friday, 21 March"
+        android:text="Friday, 27 March"
         android:textColor="@color/white" />
 
     <TextView
@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="64dp"
-        android:text="Hello, User"
+        android:text="Hello!"
         android:textColor="@color/white"
         android:textSize="30sp"
         android:textStyle="bold" />
@@ -70,16 +70,6 @@
             android:layout_marginEnd="32dp"
             android:src="@drawable/ic_undraw_people_search_re_5rre"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/searchView" />
-
-        <TextView
-            android:id="@+id/searchtv"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="28dp"
-            android:layout_marginTop="92dp"
-            android:text="TextView"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/searchView" />
 
 
