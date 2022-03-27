@@ -161,7 +161,7 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageButton
+                    <ImageView
                         android:background="@color/white"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
@@ -181,7 +181,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-
+                android:id="@+id/pateint_documents"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="12dp"
@@ -194,7 +194,7 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageButton
+                    <ImageView
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:background="@color/white"

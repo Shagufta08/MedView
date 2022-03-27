@@ -12,9 +12,10 @@ import android.widget.Toast;
 
 import com.example.medview.MainActivity;
 import com.example.medview.R;
+import com.example.medview.network.RetrofitClientInstance;
 
 public class LoginUserActivity extends AppCompatActivity {
-
+    private RetrofitClientInstance retrofitClientInstance = new RetrofitClientInstance();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +23,7 @@ public class LoginUserActivity extends AppCompatActivity {
         Button btn1= (Button) findViewById(R.id.btn_login);
         btn1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+//                retrofitClientInstance;
                 Toast t = Toast.makeText(getApplicationContext(),
                         "Login Successful",
                         Toast.LENGTH_LONG);
