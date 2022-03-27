@@ -76,7 +76,7 @@
                 android:layout_height="0dp"
                 android:layout_marginStart="32dp"
                 android:elevation="5dp"
-                app:cardBackgroundColor="#B700ACC1"
+                app:cardBackgroundColor="#ffffff"
                 app:cardCornerRadius="10dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
@@ -105,7 +105,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Blood"
-                            android:textColor="@color/white"
+                            android:textColor="@color/teal_700"
                             android:textSize="16sp"
                             android:textStyle="bold" />
 
@@ -113,7 +113,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="B+"
-                            android:textColor="@color/white"
+                            android:textColor="@color/teal_700"
                             android:textSize="16sp"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -127,7 +127,7 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="16dp"
                 android:elevation="5dp"
-                app:cardBackgroundColor="#B700ACC1"
+                app:cardBackgroundColor="#ffffff"
                 app:cardCornerRadius="10dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/cardView">
@@ -156,7 +156,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Weight"
-                            android:textColor="@color/white"
+                            android:textColor="@color/teal_700"
                             android:textSize="16sp"
                             android:textStyle="bold" />
 
@@ -164,7 +164,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="50"
-                            android:textColor="@color/white"
+                            android:textColor="@color/teal_700"
                             android:textSize="16sp"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -177,7 +177,7 @@
                 android:layout_height="0dp"
                 android:layout_marginStart="16dp"
                 android:elevation="5dp"
-                app:cardBackgroundColor="#B700ACC1"
+                app:cardBackgroundColor="#ffffff"
                 app:cardCornerRadius="10dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/cardView"
@@ -206,16 +206,16 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Weight"
-                            android:textColor="@color/white"
+                            android:text="Height"
+                            android:textColor="@color/teal_700"
                             android:textSize="16sp"
                             android:textStyle="bold" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="50"
-                            android:textColor="@color/white"
+                            android:text="160 cm"
+                            android:textColor="@color/teal_700"
                             android:textSize="16sp"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -230,7 +230,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:elevation="5dp"
-                app:cardBackgroundColor="#B700ACC1"
+                app:cardBackgroundColor="#ffffff"
                 app:cardCornerRadius="10dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/cardView2"
@@ -260,7 +260,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Age"
-                            android:textColor="@color/white"
+                            android:textColor="@color/teal_700"
                             android:textSize="16sp"
                             android:textStyle="bold" />
 
@@ -268,7 +268,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="21"
-                            android:textColor="@color/white"
+                            android:textColor="@color/teal_700"
                             android:textSize="16sp"
                             android:textStyle="bold" />
                     </LinearLayout>
