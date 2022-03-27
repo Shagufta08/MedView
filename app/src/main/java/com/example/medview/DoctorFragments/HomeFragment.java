@@ -6,6 +6,7 @@ import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 
+import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -44,8 +45,26 @@ public class HomeFragment extends Fragment {
             @Override
             public boolean onQueryTextSubmit(String query) {
                 serchatv.setText(query);
-                if(query.equals("123")) startActivity(new Intent(getActivity(), SearchUserActivity.class));
-                else Toast.makeText(getActivity(), "User not found!", Toast.LENGTH_SHORT).show();
+                if(query.equals("52832912")) {
+
+                    ProgressDialog progressDialog = new ProgressDialog(getActivity());
+                    progressDialog.setMessage("Searching user..");
+                    progressDialog.show();
+
+                    Handler handler = new Handler();
+                    handler.postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            progressDialog.dismiss();
+                            startActivity(new Intent(getContext(), SearchUserActivity.class));
+                        }
+                    }, 2000);
+
+                }
+                else
+                {
+                    Toast.makeText(getActivity(), "User not found!", Toast.LENGTH_SHORT).show();
+                }
                 return false;
             }
 
