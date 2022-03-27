@@ -3,7 +3,15 @@ package com.example.medview.doctor;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
+import android.app.ProgressDialog;
+import android.app.SearchManager;
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.SearchView;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.medview.DoctorFragments.HomeFragment;
 import com.example.medview.DoctorFragments.ProfileFragment;
@@ -21,6 +29,8 @@ public class DoctorHomeActivity extends AppCompatActivity {
 
 
         navigationView =findViewById(R.id.bottom_nav_bar2);
+
+
         getSupportFragmentManager().beginTransaction().replace(R.id.container_doc,new HomeFragment()).commit();
 
         navigationView.setOnItemSelectedListener(new ChipNavigationBar.OnItemSelectedListener() {
@@ -41,6 +51,5 @@ public class DoctorHomeActivity extends AppCompatActivity {
                 }
             }
         });
-
     }
 }

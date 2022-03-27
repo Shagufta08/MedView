@@ -15,6 +15,9 @@
             android:name=".authscreens.LoginDoctorActivity"
             android:exported="false" />
         <activity
+            android:name=".doctor.SearchUserActivity"
+            android:exported="false" />
+        <activity
             android:name=".patient.IllnessActivity"
             android:exported="false" />
         <activity
