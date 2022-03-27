@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 
@@ -13,6 +14,7 @@ import com.example.medview.MainActivity;
 import com.example.medview.R;
 import com.example.medview.adapters.RecordDataAdapter;
 import com.example.medview.models.PatientHealthRecord;
+import com.facebook.shimmer.ShimmerFrameLayout;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.text.SimpleDateFormat;
@@ -28,6 +30,8 @@ public class RecordActivity extends AppCompatActivity {
     RecordDataAdapter recordDataAdapter;
     List<PatientHealthRecord> recordList = new ArrayList<>();
 
+    ShimmerFrameLayout shimmerFrameLayout;
+
     private FloatingActionButton addRecordFabBtn;
 
     @Override
@@ -39,6 +43,20 @@ public class RecordActivity extends AppCompatActivity {
         recordRecyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         addRecordFabBtn = findViewById(R.id.addrecordFabbtn);
+
+        shimmerFrameLayout = findViewById(R.id.shimmerLayout);
+
+
+        shimmerFrameLayout.startShimmer();
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+
+                shimmerFrameLayout.setVisibility(View.GONE);
+                recordRecyclerView.setVisibility(View.VISIBLE);
+            }
+        }, 2000);
 
         addRecordFabBtn.setOnClickListener(new View.OnClickListener() {
             @Override
