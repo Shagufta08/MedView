@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.medview.authscreens.LoginDoctorActivity;
 import com.example.medview.authscreens.LoginUserActivity;
 import com.example.medview.doctor.RegisterDoctorActivity;
 import com.example.medview.authscreens.RegisterUserActivity;
@@ -22,7 +23,7 @@ public class ChoiceActivity extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(ChoiceActivity.this,
-                        RegisterDoctorActivity.class));
+                        LoginDoctorActivity.class));
             }
         });
 
