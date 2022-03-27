@@ -59,12 +59,14 @@
 
     <!--scroll height may change-->
     <ScrollView
-        android:layout_width="412dp"
+        android:layout_width="match_parent"
         android:layout_height="500dp"
         android:layout_below="@+id/wave"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/wave"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-1dp">
+        tools:ignore="MissingConstraints">
 
         <LinearLayout
             android:layout_width="match_parent"

@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         navigationView =findViewById(R.id.bottom_nav_bar);
         getSupportFragmentManager().beginTransaction().replace(R.id.container,new DashboardFragment()).commit();
 

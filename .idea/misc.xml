@@ -57,11 +57,21 @@
         <entry key="app/src/main/res/drawable/button_bg_blue.xml" value="0.1355" />
         <entry key="app/src/main/res/drawable/ic_undraw_access_account_re_8spm.xml" value="0.1355" />
         <entry key="app/src/main/res/layout/activity_add_record.xml" value="0.19429347826086957" />
+        <entry key="app/src/main/res/layout/activity_choice.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_illness.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_intro.xml" value="0.12771739130434784" />
+        <entry key="app/src/main/res/layout/activity_login_user.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_record.xml" value="0.19429347826086957" />
+        <entry key="app/src/main/res/layout/activity_register_doctor.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_register_user.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.19429347826086957" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.19429347826086957" />
         <entry key="app/src/main/res/layout/fragment_profile2.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/fragment_records.xml" value="0.19429347826086957" />
+        <entry key="app/src/main/res/layout/illness_item_layout.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/intro_slide_layout.xml" value="0.19429347826086957" />
+        <entry key="app/src/main/res/layout/record_list_item.xml" value="0.19429347826086957" />
       </map>
     </option>
   </component>

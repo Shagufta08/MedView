@@ -30,6 +30,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:padding="10dp"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -70,6 +71,7 @@
 
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/add_doc_cv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="32dp"
@@ -85,6 +87,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
+                android:padding="10dp"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -104,13 +107,6 @@
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
-                    <ImageButton
-                        android:id="@+id/addrecord_igbtn"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@color/white"
-                        android:src="@drawable/ic_baseline_add_circle_outline_24"
-                        app:tint="@color/teal_700" />
                 </LinearLayout>
 
 

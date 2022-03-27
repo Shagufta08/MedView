@@ -20,7 +20,7 @@ public class RecordsFragment extends Fragment {
 
 
     private ImageButton addrecord_btn;
-    private CardView docscv;
+    private CardView docscv, adddocscv;
 
     public RecordsFragment() {
         // Required empty public constructor
@@ -33,8 +33,9 @@ public class RecordsFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View item = inflater.inflate(R.layout.fragment_records, container, false);
-        addrecord_btn = item.findViewById(R.id.addrecord_igbtn);
+//        addrecord_btn = item.findViewById(R.id.addrecord_igbtn);
 
+        adddocscv = item.findViewById(R.id.add_doc_cv);
         docscv = item.findViewById(R.id.current_docs_cv);
 
         docscv.setOnClickListener(new View.OnClickListener() {
@@ -44,7 +45,7 @@ public class RecordsFragment extends Fragment {
             }
         });
 
-        addrecord_btn.setOnClickListener(new View.OnClickListener() {
+        adddocscv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), AddRecordActivity.class);

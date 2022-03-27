@@ -15,11 +15,9 @@
             android:exported="false" />
         <activity
             android:name=".authscreens.RegisterUserActivity"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
             android:exported="false" />
         <activity
             android:name=".doctor.RegisterDoctorActivity"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
             android:exported="false" />
         <activity
             android:name=".ChoiceActivity"
@@ -32,7 +30,6 @@
             android:exported="false" />
         <activity
             android:name=".patient.ProfileActivity"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
             android:exported="false" />
         <activity
             android:name=".patient.PatientHomeActivity"
@@ -45,7 +42,6 @@
             android:exported="true" />
         <activity
             android:name=".authscreens.LoginUserActivity"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
             android:exported="false" />
 
         <activity android:name=".doctor.DoctorHomeActivity"

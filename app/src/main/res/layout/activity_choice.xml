@@ -33,26 +33,26 @@
 
     <ImageView
         android:id="@+id/medical_team"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginTop="50dp"
+        android:contentDescription="@string/medical_team"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.481"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/chooseRole"
-        app:srcCompat="@drawable/ic_doctor"
-        android:contentDescription="@string/medical_team" />
+        app:srcCompat="@drawable/ic_doctor" />
 
     <ImageView
         android:id="@+id/user"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginTop="40dp"
+        android:contentDescription="@string/user"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_medical"
-        app:srcCompat="@drawable/ic_user"
-        android:contentDescription="@string/user" />
+        app:srcCompat="@drawable/ic_user" />
 
     <Button
         android:id="@+id/btn_medical"
@@ -61,8 +61,9 @@
         android:layout_marginTop="20dp"
         android:background="@drawable/round_blue_bg"
         android:text="@string/medical_team"
-        android:textSize="20sp"
+        android:textSize="16sp"
         android:textStyle="bold"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/medical_team" />
@@ -74,7 +75,7 @@
         android:layout_marginTop="20dp"
         android:background="@drawable/round_blue_bg"
         android:text="@string/user"
-        android:textSize="20sp"
+        android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
